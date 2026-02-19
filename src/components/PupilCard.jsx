@@ -22,7 +22,7 @@ export default function PupilCard({
                 <h3 className="text-white text-wrap mb-1 text-xl font-bold">{pupil.lastName} {pupil.firstName}</h3>
                 <p className="text-sm text-slate-400 inline gap-1">
                     <span className="text-amber-500">💡</span>
-                    <i>{pupil.fact}</i>
+                    {pupil.fact}
                 </p>
             </div>
         </div>

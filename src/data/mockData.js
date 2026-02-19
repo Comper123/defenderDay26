@@ -5,7 +5,7 @@ export const pupilsData = [
     firstName: "Виктория",
     fatherName: "Александровна",
     img: "/pupils/1.png",
-    fact: "Обожает путешествовать и уже побывала в 10 странах"
+    fact: "Если чо я не кричу, я умираю."
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const pupilsData = [
     firstName: "Виктория",
     fatherName: "Алексеевна",
     img: "/pupils/2.png",
-    fact: "Пишет стихи и мечтает издать сборник"
+    fact: ""
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const pupilsData = [
     firstName: "Анфиса",
     fatherName: "Даниловна",
     img: "/pupils/3.png",
-    fact: "Чемпионка района по шахматам"
+    fact: `Cамая главная активистка и оптимистка класса.`
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const pupilsData = [
     firstName: "Полина",
     fatherName: "Семёновна",
     img: "/pupils/4.png",
-    fact: "Коллекционирует виниловые пластинки"
+    fact: ""
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const pupilsData = [
     firstName: "Мария",
     fatherName: "Александровна",
     img: "/pupils/5.png",
-    fact: "Владеет тремя иностранными языками"
+    fact: ""
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export const pupilsData = [
     firstName: "Даниэль",
     fatherName: "Карлосович",
     img: "/pupils/6.png",
-    fact: "Профессионально занимается футболом"
+    fact: ""
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ export const pupilsData = [
     firstName: "Елена",
     fatherName: "Константиновна",
     img: "/pupils/7.png",
-    fact: "Играет на скрипке в городском оркестре"
+    fact: ""
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ export const pupilsData = [
     firstName: "Павел",
     fatherName: "Александрович",
     img: "/pupils/8.png",
-    fact: "Создал своё мобильное приложение"
+    fact: ""
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ export const pupilsData = [
     firstName: "Георгий",
     fatherName: "Валерьевич",
     img: "/pupils/9.png",
-    fact: "Увлекается астрономией и фотографирует звезды"
+    fact: ""
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ export const pupilsData = [
     firstName: "Тимофей",
     fatherName: "Даниилович",
     img: "/pupils/10.png",
-    fact: "Мастер спорта по плаванию"
+    fact: ""
   },
   {
     id: 11,
@@ -85,7 +85,7 @@ export const pupilsData = [
     firstName: "Вячеслав",
     fatherName: "Дмитриевич",
     img: "/pupils/11.png",
-    fact: "Реставрирует старые автомобили"
+    fact: ""
   },
   {
     id: 12,
@@ -93,7 +93,7 @@ export const pupilsData = [
     firstName: "Егор",
     fatherName: "Валерьевич",
     img: "/pupils/12.png",
-    fact: "Ведет популярный блог о технологиях"
+    fact: ""
   },
   {
     id: 13,
@@ -101,7 +101,7 @@ export const pupilsData = [
     firstName: "Иван",
     fatherName: "Павлович",
     img: "/pupils/13.png",
-    fact: "Победитель олимпиад по физике"
+    fact: ""
   },
   {
     id: 14,
@@ -109,7 +109,7 @@ export const pupilsData = [
     firstName: "Алан",
     fatherName: "Станиславович",
     img: "/pupils/14.png",
-    fact: "Играет в КВН и пишет шутки"
+    fact: ""
   },
   {
     id: 15,
@@ -117,7 +117,7 @@ export const pupilsData = [
     firstName: "Илья",
     fatherName: "Арсенович",
     img: "/pupils/15.png",
-    fact: "Коллекционирует редкие комиксы"
+    fact: ""
   },
   {
     id: 16,
@@ -125,7 +125,7 @@ export const pupilsData = [
     firstName: "Елизавета",
     fatherName: "Андреевна",
     img: "/pupils/16.png",
-    fact: "Занимается конным спортом"
+    fact: ""
   },
   {
     id: 17,
@@ -133,7 +133,7 @@ export const pupilsData = [
     firstName: "Александр",
     fatherName: "Алексеевич",
     img: "/pupils/17.png",
-    fact: "Сам придумал и собрал дрон"
+    fact: ""
   },
   {
     id: 18,
@@ -141,7 +141,7 @@ export const pupilsData = [
     firstName: "Лев",
     fatherName: "Эдуардович",
     img: "/pupils/18.png",
-    fact: "Играет на гитаре и поет в группе"
+    fact: ""
   },
   {
     id: 19,
@@ -149,7 +149,7 @@ export const pupilsData = [
     firstName: "Николай",
     fatherName: "Александрович",
     img: "/pupils/19.png",
-    fact: "Увлекается 3D-моделированием"
+    fact: ""
   },
   {
     id: 20,
@@ -157,7 +157,7 @@ export const pupilsData = [
     firstName: "Дмитрий",
     fatherName: "Александрович",
     img: "/pupils/20.png",
-    fact: "Волонтер в приюте для животных"
+    fact: ""
   },
   {
     id: 21,
@@ -165,7 +165,7 @@ export const pupilsData = [
     firstName: "София",
     fatherName: "Максимовна",
     img: "/pupils/21.png",
-    fact: "Танцует бальные танцы 10 лет"
+    fact: ""
   },
   {
     id: 22,
@@ -173,7 +173,7 @@ export const pupilsData = [
     firstName: "Дарья",
     fatherName: "Дмитриевна",
     img: "/pupils/22.png",
-    fact: "Печет авторские торты на заказ"
+    fact: ""
   },
   {
     id: 23,
@@ -181,7 +181,7 @@ export const pupilsData = [
     firstName: "Тимофей",
     fatherName: "Андреевич",
     img: "/pupils/23.png",
-    fact: "Занимается робототехникой"
+    fact: ""
   },
   {
     id: 24,
@@ -189,7 +189,7 @@ export const pupilsData = [
     firstName: "Андрей",
     fatherName: "Денисович",
     img: "/pupils/24.png",
-    fact: "Изучает японский язык и культуру"
+    fact: ""
   },
   {
     id: 25,
@@ -197,7 +197,7 @@ export const pupilsData = [
     firstName: "Полина",
     fatherName: "Ивановна",
     img: "/pupils/25.png",
-    fact: "Рисует в стиле аниме"
+    fact: ""
   },
   {
     id: 26,
@@ -205,7 +205,7 @@ export const pupilsData = [
     firstName: "Иван",
     fatherName: "Александрович",
     img: "/pupils/26.png",
-    fact: "Играет в театральной студии"
+    fact: ""
   },
   {
     id: 27,
@@ -213,7 +213,7 @@ export const pupilsData = [
     firstName: "Даниил",
     fatherName: "Владимирович",
     img: "/pupils/27.png",
-    fact: "Увлекается паркуром"
+    fact: ""
   },
   {
     id: 28,
@@ -221,7 +221,7 @@ export const pupilsData = [
     firstName: "Кирилл",
     fatherName: "Иванович",
     img: "/pupils/28.png",
-    fact: "Сам научился играть на пианино"
+    fact: ""
   },
   {
     id: 29,
@@ -229,6 +229,17 @@ export const pupilsData = [
     firstName: "Ярослав",
     fatherName: "Русланович",
     img: "/pupils/29.png",
-    fact: "Мечтает стать архитектором"
+    fact: "Любит пончики"
   }
 ];
+
+
+export const Natalie = {
+  firstName: "Наталья",
+  lastName: "Левина",
+  fatherName: "Михайловна",
+  image: "",
+  description: `
+  
+  `
+}
