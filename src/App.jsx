@@ -30,7 +30,6 @@ function App() {
           <div className="grid grid-cols-4 gap-8">
             {pupils.map((pupil) => (
               <PupilCard
-                key={pupil.id}
                 pupil={pupil}
                 className="group"
               ></PupilCard>
