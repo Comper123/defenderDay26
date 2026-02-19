@@ -21,7 +21,7 @@ export const pupilsData = [
     firstName: "Анфиса",
     fatherName: "Даниловна",
     img: "/pupils/3.png",
-    fact: `Cамая главная активистка и оптимистка класса.`
+    fact: `Cамая главная активистка и оптимистка класса`
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const pupilsData = [
     firstName: "Полина",
     fatherName: "Семёновна",
     img: "/pupils/4.png",
-    fact: ""
+    fact: "Лучше всех разбирается в нейронных сетях"
   },
   {
     id: 5,
@@ -45,7 +45,7 @@ export const pupilsData = [
     firstName: "Даниэль",
     fatherName: "Карлосович",
     img: "/pupils/6.png",
-    fact: ""
+    fact: "Любит олимпиады"
   },
   {
     id: 7,
@@ -61,7 +61,7 @@ export const pupilsData = [
     firstName: "Павел",
     fatherName: "Александрович",
     img: "/pupils/8.png",
-    fact: "Добрейший фотограф."
+    fact: "Добрейший фотограф"
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ export const pupilsData = [
     firstName: "Георгий",
     fatherName: "Валерьевич",
     img: "/pupils/9.png",
-    fact: ""
+    fact: "Будущий стобалльник по информатике"
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ export const pupilsData = [
     firstName: "Тимофей",
     fatherName: "Даниилович",
     img: "/pupils/10.png",
-    fact: ""
+    fact: "Громче всех чихает"
   },
   {
     id: 11,
@@ -85,7 +85,7 @@ export const pupilsData = [
     firstName: "Вячеслав",
     fatherName: "Дмитриевич",
     img: "/pupils/11.png",
-    fact: ""
+    fact: "Любит кадрить девочек с дайвинчика"
   },
   {
     id: 12,
@@ -117,7 +117,7 @@ export const pupilsData = [
     firstName: "Илья",
     fatherName: "Арсенович",
     img: "/pupils/15.png",
-    fact: ""
+    fact: "Реставрирует старые автомобили"
   },
   {
     id: 16,

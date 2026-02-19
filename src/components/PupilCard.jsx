@@ -11,7 +11,7 @@ export default function PupilCard({
              onMouseLeave={() => setIsHovered(false)}>
             {/* Аватар */}
             <div className="relative w-full h-full">
-                <img src={pupil.img || '/pupils/default.png'} alt={pupil.name} className="w-full aspect-square object-cover absolute z-1"/>
+                <img src={pupil.img || '/pupils/default.png'} alt={pupil.name} className="w-full aspect-square object-cover absolute z-1 contain-strict"/>
                 <span className={`${
                     isHovered ? 'opacity-100' : 'opacity-0'
                 } bg-black/40 absolute z-3 w-full h-full top-0 left-0 right-0 bottom-0 duration-300`}></span>
@@ -22,7 +22,7 @@ export default function PupilCard({
                 <h3 className="text-white text-wrap mb-1 text-xl font-bold">{pupil.lastName} {pupil.firstName}</h3>
                 <p className="text-sm text-slate-400 inline gap-1">
                     {/* <span className="text-amber-500">💡</span> */}
-                    {pupil.fact}
+                    "{pupil.fact}"
                 </p>
             </div>
         </div>

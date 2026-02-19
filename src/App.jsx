@@ -6,12 +6,19 @@ import { pupilsData } from "./data/mockData";
 import PupilCard from "./components/PupilCard";
 
 function App() {
-  const [pupils, setPupils] = useState(pupilsData);
 
   return (
     <div>
       <div className="w-100 h-100 fixed top-0 left-0 right-0 bottom-0">
-        <ParallaxImage src={"/class.jpg"}></ParallaxImage>
+        {/* <ParallaxImage src={"/class.jpg"}></ParallaxImage> */}
+        <img
+                src={"/class.jpg"}
+                className="
+                    absolute inset-0
+                    w-full h-[100%]
+                    object-cover object-center
+                "
+            />
         <div className="absolute z-3 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex items-center flex-col justify-center">
           <h1 className="text-white text-[min(200px,20vw)] leading-none mb-4 font-extrabold drop-shadow-[0_4px_4px_rgba(0,0,0,0.5)] [text-shadow:0_0_20px_rgba(255,255,255,0.3)] animate-fade-in-up">
             11 Т
@@ -28,10 +35,9 @@ function App() {
       <div className="mt-[100vh]">
         <Section title="Наши ученики">
           <div className="grid grid-cols-4 gap-8">
-            {pupils.map((pupil) => (
+            {pupilsData.map((pupil) => (
               <PupilCard
                 pupil={pupil}
-                className="group"
               ></PupilCard>
             ))}
           </div>
