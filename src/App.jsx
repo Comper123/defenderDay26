@@ -16,8 +16,8 @@ function App() {
           <h1 className="text-white text-[min(200px,20vw)] leading-none mb-4 font-extrabold drop-shadow-[0_4px_4px_rgba(0,0,0,0.5)] [text-shadow:0_0_20px_rgba(255,255,255,0.3)] animate-fade-in-up">
             11 Т
           </h1>
-          <h1 className="text-white text-[min(80px,8vw)] font-bold drop-shadow-[0_2px_2px_rgba(0,0,0,0.5)] [text-shadow:0_0_15px_rgba(168,85,247,0.5)] animate-fade-in-up animation-delay-200">
-            Самый лучший
+          <h1 className="text-white text-[min(80px,8vw)] text-nowrap font-bold drop-shadow-[0_2px_2px_rgba(0,0,0,0.5)] [text-shadow:0_0_15px_rgba(168,85,247,0.5)] animate-fade-in-up animation-delay-200">
+            Лучший класс Родной 36
           </h1>
           <p className="text-white/80 text-xl mt-8 tracking-[0.2em] uppercase animate-fade-in-up animation-delay-400">
             Выпуск 2026

@@ -14,7 +14,6 @@ export default function ParallaxImage({ src, alt }) {
                     absolute inset-0
                     w-full h-[100%]
                     object-cover object-center
-                    animate-parallax-scroll
                 "
             />
             <div className="

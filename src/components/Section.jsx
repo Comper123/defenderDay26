@@ -12,14 +12,6 @@ function Section({ title, children, id, className = "" }) {
                 bg-gradient-to-br from-gray-900/80 to-gray-800/80
                 backdrop-blur-sm
                 shadow-[0_20px_40px_-15px_rgba(0,0,0,0.7)]
-                before:absolute before:inset-0 
-                before:bg-gradient-to-b before:from-white/5 before:to-transparent
-                before:pointer-events-none
-                after:absolute after:inset-0 
-                after:bg-gradient-to-t after:from-slate-950/50 after:to-transparent
-                after:pointer-events-none
-                hover:border-slate-600/40
-                transition-all duration-500
                 ${className}
             `}
         >

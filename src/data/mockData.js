@@ -61,7 +61,7 @@ export const pupilsData = [
     firstName: "Павел",
     fatherName: "Александрович",
     img: "/pupils/8.png",
-    fact: ""
+    fact: "Добрейший фотограф."
   },
   {
     id: 9,
@@ -165,7 +165,7 @@ export const pupilsData = [
     firstName: "София",
     fatherName: "Максимовна",
     img: "/pupils/21.png",
-    fact: ""
+    fact: "Любит прогуливать физру и вязать безделушки"
   },
   {
     id: 22,

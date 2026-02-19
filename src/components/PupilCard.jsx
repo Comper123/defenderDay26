@@ -21,7 +21,7 @@ export default function PupilCard({
             <div className={`${isHovered ? '-translate-y-[100%]' : 'translate-y-0'} duration-300 py-3 px-5`}>
                 <h3 className="text-white text-wrap mb-1 text-xl font-bold">{pupil.lastName} {pupil.firstName}</h3>
                 <p className="text-sm text-slate-400 inline gap-1">
-                    <span className="text-amber-500">💡</span>
+                    {/* <span className="text-amber-500">💡</span> */}
                     {pupil.fact}
                 </p>
             </div>
