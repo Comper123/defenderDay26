@@ -1,9 +1,10 @@
-import { useState } from "react";
 import "./App.css";
 import Section from "./components/Section";
 import ParallaxImage from "./components/ui/ParallaxImg";
-import { pupilsData } from "./data/mockData";
+import { Teacher, galery, pupilsData } from "./data/mockData";
 import PupilCard from "./components/PupilCard";
+import { Speech } from "lucide-react";
+import Slider from "./components/Slider";
 
 function App() {
 
@@ -34,7 +35,7 @@ function App() {
       </div>
       <div className="mt-[100vh]">
         <Section title="Наши ученики">
-          <div className="grid grid-cols-4 gap-8">
+          <div className="grid sm:grid-cols-2 sm:gap-2 md:grid-cols-4 md:gap-8">
             {pupilsData.map((pupil) => (
               <PupilCard
                 pupil={pupil}
@@ -42,8 +43,54 @@ function App() {
             ))}
           </div>
         </Section>
-        <Section title="Наша королева" className=""></Section>
-        <Section title="Галерея" className=""></Section>
+        <Section title="Наша королева">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+            {/* Фото */}
+            <div className="md:col-span-1 h-full">
+              <img 
+                src="/nataly.png" 
+                alt="Учитель" 
+                className="w-full rounded-xl"
+              />
+            </div>
+            
+            {/* Информация */}
+            <div className="md:col-span-2 h-full">
+              <h2 className="text-3xl font-bold mb-2">
+                {Teacher.lastName} {Teacher.firstName} {Teacher.fatherName}
+              </h2>
+              <p className="text-purple-600 mb-4">Классный руководитель</p>
+              <p className="text-gray-500">
+                {Teacher.description}
+              </p>
+              <div className="flex flex-wrap justify-center mt-10 gap-6">
+                {Teacher.opinions.map((opinion) => (
+                  <div className="border-2 rounded-lg border-gray-600 py-4 px-6 w-[45%] hover:-translate-y-1 duration-300 cursor-pointer hover:border-purple-600">
+                    <h4 className="text-lg mb-1 font-semibold">{opinion.autor}</h4>
+                    <p className="text-gray-400 text-sm">
+                      <Speech className="h-5 w-5 inline my-auto mr-1"/>
+                      <span className="inline">{opinion.text}</span>  
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </Section>
+        <Section title="Галерея" className="mb-20 pb-20">
+          <Slider autoPlay={true} interval={8000}>
+            {galery.map((image, index) => (
+              <img 
+                key={index}
+                src={image.img} 
+                alt={`Фото ${index + 1}`}
+                className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
+              />
+            ))}
+          </Slider>
+        </Section>
       </div>
     </div>
   );

@@ -5,6 +5,9 @@ export default {
   ],
    theme: {
     extend: {
+      screens: {
+        'sm': '360px'
+      },
       animation: {
         'fade-in-up': 'fadeInUp 1s ease-out forwards',
       },

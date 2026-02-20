@@ -234,12 +234,132 @@ export const pupilsData = [
 ];
 
 
-export const Natalie = {
+export const Teacher = {
   firstName: "Наталья",
   lastName: "Левина",
   fatherName: "Михайловна",
-  image: "",
+  image: "/nataly.png",
   description: `
-  
-  `
+  Наш классный руководитель - человек, который может одновременно проверять тетради, успокаивать родителей, решать школьные проблемы и находить потерянные сменки. Знает все наши секреты, но умеет держать язык за зубами (почти всегда). Лучший дипломат в переговорах с завучем.
+  `,
+  opinions: [
+    {
+      id: 1,
+      autor: "Терентьева Полина",
+      text: "Самый лучший учитель математики в моей жизни"
+    },
+    {
+      id: 2,
+      autor: "Терентьева Полина",
+      text: "Самый лучший учитель математики в моей жизни"
+    },
+    {
+      id: 3,
+      autor: "Терентьева Полина",
+      text: "Самый лучший учитель математики в моей жизни"
+    },
+    {
+      id: 4,
+      autor: "Терентьева Полина",
+      text: "Самый лучший учитель математики в моей жизни"
+    },
+    {
+      id: 5,
+      autor: "Терентьева Полина",
+      text: "Самый лучший учитель математики в моей жизни"
+    },
+  ]
 }
+
+export const galery = [
+  {
+    id: 1,
+    img: "/galery/1.png",
+    name: "",
+    description: ``
+  },
+  {
+    id: 2,
+    img: "/galery/2.png",
+    name: "",
+    description: ``
+  },
+  {
+    id: 3,
+    img: "/galery/3.png",
+    name: "",
+    description: ``
+  },
+  {
+    id: 4,
+    img: "/galery/4.png",
+    name: "",
+    description: ``
+  },
+  {
+    id: 5,
+    img: "/galery/5.png",
+    name: "",
+    description: ``
+  },
+  {
+    id: 6,
+    img: "/galery/6.png",
+    name: "",
+    description: ``
+  },
+  {
+    id: 7,
+    img: "/galery/7.png",
+    name: "",
+    description: ``
+  },
+  {
+    id: 8,
+    img: "/galery/8.png",
+    name: "",
+    description: ``
+  },
+  {
+    id: 9,
+    img: "/galery/9.png",
+    name: "",
+    description: ``
+  },
+  {
+    id: 10,
+    img: "/galery/10.png",
+    name: "",
+    description: ``
+  },
+  {
+    id: 11,
+    img: "/galery/11.png",
+    name: "",
+    description: ``
+  },
+  {
+    id: 12,
+    img: "/galery/12.png",
+    name: "",
+    description: ``
+  },
+  {
+    id: 13,
+    img: "/galery/13.png",
+    name: "",
+    description: ``
+  },
+  {
+    id: 14,
+    img: "/galery/14.png",
+    name: "",
+    description: ``
+  },
+  {
+    id: 15,
+    img: "/galery/15.png",
+    name: "",
+    description: ``
+  },
+]
