@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* App.css или index.css */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px; /* Отступ от верхнего края при скролле к якорю */
+}
+
+/* Стили для скролла */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1e293b;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #8b5cf6, #ec4899);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #7c3aed, #db2777);
+}

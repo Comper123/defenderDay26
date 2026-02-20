@@ -23,7 +23,7 @@ export default function Slider({ children, autoPlay = true, interval = 10000 }) 
   if (pages.length === 0) return null;
 
   return (
-    <div className="relative overflow-hidden rounded-xl group w-9/12 mx-auto pb-20">
+    <div className="relative overflow-hidden  group sm:w-full md:w-9/12 mx-auto pb-20">
       {/* Контейнер слайдов */}
       <div 
         className="flex transition-transform duration-500 ease-out will-change-transform"
