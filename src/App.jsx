@@ -61,7 +61,7 @@ function App() {
                         object-cover object-center
                     "
                 />
-                <div className="absolute z-3 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex items-center flex-col justify-center">
+                <div className="absolute z-3 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex items-center flex-col sm:justify-start sm:mt-20 md:justify-center md:mt-0 h-full">
                     <h1 className="text-white text-[min(200px,20vw)] leading-none mb-4 font-extrabold drop-shadow-[0_4px_4px_rgba(0,0,0,0.5)] [text-shadow:0_0_20px_rgba(255,255,255,0.3)] animate-fade-in-up">
                         11 Т
                     </h1>
