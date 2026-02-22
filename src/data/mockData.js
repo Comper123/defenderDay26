@@ -37,7 +37,7 @@ export const pupilsData = [
     firstName: "Мария",
     fatherName: "Александровна",
     img: "/pupils/5.png",
-    fact: ""
+    fact: "Считаю историю и математику лженауками и коллекционирую аромасвечи"
   },
   {
     id: 6,
@@ -93,7 +93,7 @@ export const pupilsData = [
     firstName: "Егор",
     fatherName: "Валерьевич",
     img: "/pupils/12.png",
-    fact: ""
+    fact: "Главный мотороллер"
   },
   {
     id: 13,
@@ -197,7 +197,7 @@ export const pupilsData = [
     firstName: "Полина",
     fatherName: "Ивановна",
     img: "/pupils/25.png",
-    fact: ""
+    fact: "Самая красивая девушка"
   },
   {
     id: 26,
@@ -229,7 +229,7 @@ export const pupilsData = [
     firstName: "Ярослав",
     fatherName: "Русланович",
     img: "/pupils/29.png",
-    fact: "Любит пончики"
+    fact: "Любит ходить в пятерочку за пончиками"
   }
 ];
 

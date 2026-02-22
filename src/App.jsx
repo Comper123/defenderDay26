@@ -46,7 +46,7 @@ function App() {
         <div>
           <Modal isOpen={isModalOpen} onClose={closeModal}>
             <div>
-              <img src={activePupil.img} alt="" />
+              <img src={activePupil.img} alt="" className="aspect-square object-cover" />
               <h2 className="text-white text-2xl font-bold mt-4">{activePupil.lastName} {activePupil.firstName}</h2>
               <p>{activePupil.fact}</p>
             </div>
@@ -54,7 +54,7 @@ function App() {
             {/* Hero секция (остается без изменений) */}
             <div className="w-100 h-100 fixed top-0 left-0 right-0 bottom-0">
                 <img
-                    src={"/class.jpg"}
+                    src={"/11t.png"}
                     className="
                         absolute inset-0
                         w-full h-[100%]
