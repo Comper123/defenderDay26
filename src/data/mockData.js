@@ -13,7 +13,7 @@ export const pupilsData = [
     firstName: "Виктория",
     fatherName: "Алексеевна",
     img: "/pupils/2.png",
-    fact: ""
+    fact: "Главный бодибилдер Великого Новгорода"
   },
   {
     id: 3,
@@ -53,7 +53,7 @@ export const pupilsData = [
     firstName: "Елена",
     fatherName: "Константиновна",
     img: "/pupils/7.png",
-    fact: ""
+    fact: "Не проплаченный  амбассадор Хлебника"
   },
   {
     id: 8,
@@ -109,7 +109,7 @@ export const pupilsData = [
     firstName: "Алан",
     fatherName: "Станиславович",
     img: "/pupils/14.png",
-    fact: ""
+    fact: "Самый сильный в классе"
   },
   {
     id: 15,
@@ -157,7 +157,7 @@ export const pupilsData = [
     firstName: "Дмитрий",
     fatherName: "Александрович",
     img: "/pupils/20.png",
-    fact: ""
+    fact: "Самый мужественный в классе"
   },
   {
     id: 21,
@@ -181,7 +181,7 @@ export const pupilsData = [
     firstName: "Тимофей",
     fatherName: "Андреевич",
     img: "/pupils/23.png",
-    fact: ""
+    fact: "Любитель 3D принтеров"
   },
   {
     id: 24,
@@ -205,7 +205,7 @@ export const pupilsData = [
     firstName: "Иван",
     fatherName: "Александрович",
     img: "/pupils/26.png",
-    fact: ""
+    fact: "Главный по классу"
   },
   {
     id: 27,
@@ -250,8 +250,8 @@ export const Teacher = {
     },
     {
       id: 2,
-      autor: "Терентьева Полина",
-      text: "Самый лучший учитель математики в моей жизни"
+      autor: "Андреева Виктория",
+      text: "Она у меня любименькая"
     },
     {
       id: 3,
