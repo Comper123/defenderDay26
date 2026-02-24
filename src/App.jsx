@@ -45,7 +45,6 @@ function App() {
 
     return (
         <div>
-            <Analytics></Analytics>
           <Modal isOpen={isModalOpen} onClose={closeModal}>
             <div>
               <img src={activePupil.img} alt="" className="aspect-square object-cover" />
