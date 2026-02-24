@@ -274,12 +274,12 @@ export const galery = [
     name: "",
     description: ``
   },
-  {
-    id: 3,
-    img: "/galery/3.png",
-    name: "",
-    description: ``
-  },
+  // {
+  //   id: 3,
+  //   img: "/galery/3.png",
+  //   name: "",
+  //   description: ``
+  // },
   {
     id: 4,
     img: "/galery/4.png",
