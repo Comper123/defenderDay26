@@ -6,6 +6,7 @@ import { Speech } from "lucide-react";
 import Slider from "./components/Slider";
 import { useEffect, useState } from "react";
 import Modal from "./components/Modal";
+import { Analytics } from "@vercel/analytics/next"
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
 
     return (
         <div>
+            <Analytics></Analytics>
           <Modal isOpen={isModalOpen} onClose={closeModal}>
             <div>
               <img src={activePupil.img} alt="" className="aspect-square object-cover" />
